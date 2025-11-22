@@ -3,13 +3,7 @@
 #
 #     python3 -m pip install bikeshed && bikeshed update
 
-# It also assumes you have doctoc installed. This is a tool that
-# automatically generates Table of Contents for Markdown files. It can
-# be installed like any other NPM module:
-#
-#    npm install -g doctoc
-
-.PHONY: all publish clean update-explainer-toc
+# It also assumes you have doctoc installed. This is a tool t
 .SUFFIXES: .bs .html
 
 publish: index.html
